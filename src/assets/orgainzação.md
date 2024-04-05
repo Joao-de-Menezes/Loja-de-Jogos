@@ -1,0 +1,1 @@
+Aqui deverão ficar todos os arquivos de img, svg, entre outros do mesmo tipo.

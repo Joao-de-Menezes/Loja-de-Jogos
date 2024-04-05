@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.93);
+  }
+
+  .container {
+    margin-top: 100px;
+  }
+
+  .card {
+    background-color: #202020;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 50px; 
+    max-width: 450px; 
+    width: 100%; 
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    margin: 110px auto 0; 
+  }
+ 
+
+  .card-title {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 35px;
+  }
+
+  #email, #password {
+    background-color: #202020;
+    border: 1px solid #ccc; 
+    color: #fff;
+    border-radius: 0;
+    width: 300px; /* Ajuste o valor conforme necessário */
+    transition: width 0.3s ease-in-out; /* Adiciona uma transição suave */
+}
+
+#nome, #sobrenome, #nick, #dob{
+    background-color: #202020;
+    border: 1px solid #ccc;
+    color: #fff;
+}
+
+#email:focus, #password:focus {
+    width: 350px; /* Aumenta a largura quando o campo está em foco */
+}
+
+
+.text-center, .form-label, .form-check-label {
+    color: #FFFFFF; 
+  }
+.text-center a, .form-check-label a  {
+    text-decoration: underline; 
+    color: #FFFFFF; 
+  }
+  
+
+

@@ -6,6 +6,7 @@
     <title>Cadastro de Jogo</title>
     <!-- Adicionando Bootstrap CSS -->
     <link href="../../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="icon" href="../assets/icone.png">
 
     <style>
         /* Estilos personalizados */
@@ -13,12 +14,13 @@
             font-family: Arial, sans-serif;
             background-color: rgba(0, 0, 0, 0.93);
             color: white;
+            padding: 32px;
         }
 
         .container {
             background-color: #202020;
-            padding: 20px;
             border-radius: 10px;
+            max-width: 720px;
         }
 
         #preview {
@@ -34,8 +36,10 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="mt-5 mb-4">Cadastro de Jogo</h1>
-        <form action="#" method="POST" enctype="multipart/form-data">
+        <div>
+            <h1 class="mt-5 mb-4">Cadastro de Jogo</h1>
+        </div>
+        <form action="processar_formulario.php" method="POST" enctype="multipart/form-data">
             <div class="form-group">
                 <label for="nome">Nome do Jogo:</label>
                 <input type="text" class="form-control" id="nome" name="nome" required>
@@ -78,7 +82,7 @@
                 </select>
             </div>
             <div>
-                <button type="submit" class="btn btn-secondary">Cadastrar</button>
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
             </div>
         </form>
     </div>

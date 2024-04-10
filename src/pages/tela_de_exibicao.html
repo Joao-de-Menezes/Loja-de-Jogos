@@ -121,7 +121,7 @@
           <div class="card-body">
             <h5 class="card-title">Elden Ring</h5>
             <p class="card-text">Descrição do produto 1.</p>
-            <a href="carrinho.html" class="btn btn-primary">Adicionar ao carrinho</a>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Adicionar ao carrinho</button>
           </div>
         </div>
       </div>
@@ -131,7 +131,7 @@
           <div class="card-body">
             <h5 class="card-title">Bloodborne</h5>
             <p class="card-text">Descrição do produto 2.</p>
-            <a href="carrinho.html" class="btn btn-primary">Adicionar ao carrinho</a>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Adicionar ao carrinho</button>
           </div>
         </div>
       </div>
@@ -141,7 +141,7 @@
           <div class="card-body">
             <h5 class="card-title">hollow Knight</h5>
             <p class="card-text">Descrição do produto 3.</p>
-            <a href="carrinho.html" class="btn btn-primary">Adicionar ao carrinho</a>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Adicionar ao carrinho</button>
           </div>
         </div>
       </div>
@@ -151,7 +151,7 @@
           <div class="card-body">
             <h5 class="card-title">Observation</h5>
             <p class="card-text">Descrição do produto 4.</p>
-            <a href="carrinho.html" class="btn btn-primary">Adicionar ao carrinho</a>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Adicionar ao carrinho</button>
           </div>
         </div>
       </div>
@@ -161,7 +161,7 @@
           <div class="card-body">
             <h5 class="card-title">Horizon Forbidden West</h5>
             <p class="card-text">Descrição do produto 5.</p>
-            <a href="carrinho.html" class="btn btn-primary">Adicionar ao carrinho</a>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Adicionar ao carrinho</button>
           </div>
         </div>
       </div>
@@ -171,8 +171,26 @@
           <div class="card-body">
             <h5 class="card-title">Starbound</h5>
             <p class="card-text">Descrição do produto 6.</p>
-            <a href="carrinho.html" class="btn btn-primary">Adicionar ao carrinho</a>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Adicionar ao carrinho</button>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Adicionado ao carrinho</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Produto adicionado ao carrinho com sucesso!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          <a href="carrinho.html" type="button" class="btn btn-primary">Ir para o carrinho</a>
         </div>
       </div>
     </div>

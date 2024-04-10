@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,57 +9,68 @@
   <link rel="icon" href="/src/assets/icone.png">
 
   <style>
-      .header{
-        background-color: #202020;
-      }
-      .navbar {
+    .header {
       background-color: #202020;
     }
+
+    .navbar {
+      background-color: #202020;
+    }
+
     .navbar-brand {
       color: #ffffff;
     }
+
     .navbar-nav .nav-link {
       color: #ffffff !important;
     }
-    
+
     .btn-primary {
       background-color: #007bff;
       border-color: #007bff;
     }
+
     .btn-primary:hover {
       background-color: #0056b3;
       border-color: #0056b3;
     }
-   
+
     .card {
-      border-color: #dee2e6; 
+      border-color: #dee2e6;
       background-color: #202020;
     }
+
     .card-title {
-      color: #ffffff; 
+      color: #ffffff;
     }
+
     .card-text {
       color: #ffffff;
     }
+
     .carousel-item {
       height: 300px;
     }
+
     .carousel-item img {
       object-fit: cover;
       height: 100%;
       width: 100%;
     }
-    body{
+
+    body {
       background-color: rgba(0, 0, 0, 0.93);
     }
   </style>
 </head>
+
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand" href="index.html">Mokey D. jogos</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -66,51 +78,55 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="cadProdutos.html">Adicionar Produtos</a>
             </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="alterDadoProduto.html">Alterar informação do produto</a>
-            </li>
-
             <li class="nav-item">
               <a class="nav-link" href="carrinho.html">Carrinho</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="registro.html">Registro</a>
             </li>
-
             <li class="nav-item">
-              <a class="nav-link" href="alterDadoUsuario.html">Alterar seus Dados</a>
+              <a class="nav-link" href="perifl.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-person-circle" viewBox="0 0 16 16">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                  <path fill-rule="evenodd"
+                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                </svg> Perfil
+              </a>
             </li>
-
-
           </ul>
         </div>
       </div>
     </nav>
-  </header> 
+  </header>
 
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="../assets/capa1.png" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="../assets/capa2.jpg"  class="d-block w-100" alt="">
+        <img src="../assets/capa2.jpg" class="d-block w-100" alt="">
       </div>
       <div class="carousel-item">
         <img src="../assets/capa3.png" style="top: 0;" class="d-block w-100" alt="Horizon Forbidden West">
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Anterior</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Próximo</span>
     </button>
@@ -119,62 +135,74 @@
   <div class="container mt-5">
     <div class="row">
       <div class="col-md-4 mb-4">
-        <div class="card" >
-          <img src="../assets/Elden ring.png" class="card-img-top" alt="elden_ring" style="align-self: center ; display: flex; max-width: 300px; max-height: 350px;">
+        <div class="card">
+          <img src="../assets/Elden ring.png" class="card-img-top" alt="elden_ring"
+            style="align-self: center ; display: flex; max-width: 300px; max-height: 350px;">
           <div class="card-body">
             <h5 class="card-title">Elden Ring</h5>
             <p class="card-text">Descrição do produto 1.</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Adicionar ao carrinho</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">Adicionar ao carrinho</button>
           </div>
         </div>
       </div>
       <div class="col-md-4 mb-4">
         <div class="card">
-          <img src="../assets/bloodborne.png" class="card-img-top" alt="bloodborne" style="align-self: center ; display: flex; max-width: 300px; max-height: 350px;">
+          <img src="../assets/bloodborne.png" class="card-img-top" alt="bloodborne"
+            style="align-self: center ; display: flex; max-width: 300px; max-height: 350px;">
           <div class="card-body">
             <h5 class="card-title">Bloodborne</h5>
             <p class="card-text">Descrição do produto 2.</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Adicionar ao carrinho</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">Adicionar ao carrinho</button>
           </div>
         </div>
       </div>
       <div class="col-md-4 mb-4">
         <div class="card">
-          <img src="../assets/hollow-knight.png" class="card-img-top" alt="hollow-knight" style="align-self: center ; display: flex; max-width: 300px; max-height: 350px;">
+          <img src="../assets/hollow-knight.png" class="card-img-top" alt="hollow-knight"
+            style="align-self: center ; display: flex; max-width: 300px; max-height: 350px;">
           <div class="card-body">
             <h5 class="card-title">hollow Knight</h5>
             <p class="card-text">Descrição do produto 3.</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Adicionar ao carrinho</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">Adicionar ao carrinho</button>
           </div>
         </div>
       </div>
       <div class="col-md-4 mb-4">
         <div class="card">
-          <img src="../assets/observation.png" class="card-img-top" alt="observation" style="align-self: center ; display: flex; max-width: 300px; max-height: 350px;">
+          <img src="../assets/observation.png" class="card-img-top" alt="observation"
+            style="align-self: center ; display: flex; max-width: 300px; max-height: 350px;">
           <div class="card-body">
             <h5 class="card-title">Observation</h5>
             <p class="card-text">Descrição do produto 4.</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Adicionar ao carrinho</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">Adicionar ao carrinho</button>
           </div>
         </div>
       </div>
       <div class="col-md-4 mb-4">
         <div class="card">
-          <img src="../assets/horizon-forbidden.png" class="card-img-top" alt="Horizon Forbidden West" style="align-self: center ; display: flex; max-width: 300px; max-height: 350px;">
+          <img src="../assets/horizon-forbidden.png" class="card-img-top" alt="Horizon Forbidden West"
+            style="align-self: center ; display: flex; max-width: 300px; max-height: 350px;">
           <div class="card-body">
             <h5 class="card-title">Horizon Forbidden West</h5>
             <p class="card-text">Descrição do produto 5.</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Adicionar ao carrinho</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">Adicionar ao carrinho</button>
           </div>
         </div>
       </div>
       <div class="col-md-4 mb-4">
         <div class="card">
-          <img src="../assets/starbound.png" class="card-img-top" alt="Starbound" style="align-self: center ; display: flex; max-width: 300px; max-height: 350px;">
+          <img src="../assets/starbound.png" class="card-img-top" alt="Starbound"
+            style="align-self: center ; display: flex; max-width: 300px; max-height: 350px;">
           <div class="card-body">
             <h5 class="card-title">Starbound</h5>
             <p class="card-text">Descrição do produto 6.</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Adicionar ao carrinho</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">Adicionar ao carrinho</button>
           </div>
         </div>
       </div>
@@ -201,4 +229,5 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

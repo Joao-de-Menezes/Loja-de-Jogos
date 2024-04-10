@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Termos de serviço</title>
+  <title>Perfil do Usuário</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="/src/css/style.css">
@@ -46,41 +46,44 @@
   </nav>
 </header>
 
-
 <body>
-  <div class="container mt-5">
-    <h2 class="card-title text-center">Termos de Serviço</h2>
-    <p class="text-center">
-
-      Bem-vindo aos Termos de Serviço do nosso projeto! Este projeto foi desenvolvido como parte de atividades
-      universitárias e tem como objetivo principal
-      promover aprendizado e colaboração entre estudantes. Por favor, leia atentamente estes termos antes de utilizar o
-      projeto. Ao acessar ou utilizar o projeto de qualquer forma, você concorda em cumprir e ficar vinculado a estes
-      termos. Se você não concordar com algum destes termos, você não está autorizado a utilizar o projeto.
-    </p>
-
-    <h3 class="card-title text-center">Uso Autorizado</h3>
-    <p class="text-center">
-      Este projeto é destinado exclusivamente para fins educacionais e de aprendizado. Você concorda em utilizar o
-      projeto
-      apenas de acordo com as leis, regras e regulamentos aplicáveis, bem como em conformidade com estes termos de
-      serviço. Você não tem permissão
-      para utilizar o projeto para fins comerciais,incluindo vendas, promoções ou qualquer outra atividade comercial sem
-      autorização prévia dos desenvolvedores.
-    </p>
-
-    <div class="container m-0">
-      <h1 class="card-title text-center m-0">Desenvolvedores:</h1>
-      <h3 class="text-center">Gustavo Rodrigues</h3>
-      <h3 class="text-center">João de Menezes</p>
-      <h3 class="text-center">Leandro dos Santos</h3>
+  <div class="container mb-5 mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card mt-0">
+          <div class="card-body">
+            <h2 class="card-title text-center">Perfil do Usuário</h2>
+            <div class="mb-3">
+              <label for="nome" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="nome" name="nome" value="Nome do Usuário" readonly>
+            </div>
+            <div class="mb-3">
+              <label for="sobrenome" class="form-label">Sobrenome</label>
+              <input type="text" class="form-control" id="sobrenome" name="sobrenome" value="Sobrenome do Usuário"
+                readonly>
+            </div>
+            <div class="mb-3">
+              <label for="nick" class="form-label">Nick de Exibição</label>
+              <input type="text" class="form-control" id="nick" name="nick" value="Nick do Usuário" readonly>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Endereço de E-mail</label>
+              <input type="email" class="form-control" id="email" name="email" value="email@exemplo.com" readonly>
+            </div>
+            <div class="mb-3">
+              <label for="dob" class="form-label">Data de Nascimento</label>
+              <input type="date" class="form-control" id="dob" name="dob" value="1990-01-01" readonly>
+            </div>
+            <p class="text-center"><a href="alterDadoUsuario.html">Editar Perfil</a></p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-
 </body>
 
 </html>

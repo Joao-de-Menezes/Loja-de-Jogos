@@ -1,1 +1,1 @@
-Aqui ficarão os arquivos em pho do próx semestre.
+Aqui ficarão os arquivos em php do próx semestre.
